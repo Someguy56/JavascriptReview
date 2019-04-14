@@ -1,4 +1,5 @@
 function heeHaw(num) {
+    console.log("Using "+num+" ------------------");
     if(num < 1)
     {
         console.log("Error! Enter a number larger than 0.");
@@ -25,3 +26,7 @@ function heeHaw(num) {
 }
 
 heeHaw(50);
+heeHaw(0);
+heeHaw(75);
+heeHaw(-1);
+heeHaw(103);
